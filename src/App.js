@@ -4,6 +4,8 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import Home from './containers/Home/Home';
 import Register from './containers/Register/Register';
 import Header from './components/Header/Header';
+import Login from './containers/Login/Login';
+import Profile from './containers/Profile/Profile';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
 
           <Route path="/" exact component={Home}/>
           <Route path="/register" exact component={Register}/>
+          <Route path="/login" exact component={Login}/>
+          <Route path="/profile" exact component={Profile}/>
 
         </Switch>
       

@@ -9,6 +9,8 @@ const Header = () => {
         <div className="header">
             <Boton lugar="/" destino="Home"/>
             <Boton lugar="/register" destino="Registro"/>
+            <Boton lugar="/login" destino="Login"/>
+            <Boton lugar="/profile" destino="Profile"/>
         </div>
     )
 }
